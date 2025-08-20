@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Login-Form</title>
+  </head>
+  <link rel="stylesheet" href="log.css">
+  <script>
+    function five()
+    {
+        var M=document.getElementById('Mobileno').value;
+        var U=document.getElementById('Username').value;
+   if(M=="")
+   {
+    
+    
+    alert("please enter your mobile no");
+    return false;
+   
+}
+
+   if(U=="")
+   {
+    alert("please enter user name");
+    return false;
+   }
+}
+  </script>
+  <body>
+    <form onsubmit="return five()" method="post">
+    <h1>Hello, world!</h1>
+
+    <h1>
+        Login-Form</h1>
+        
+        <tr>
+           <center><td class="one">Mobileno:</td>
+            <td><input type="text" name="mobileno" value="" id="Mobileno"></td>
+        </center>
+        </tr>
+        
+        <br>
+        <tr>
+           <center> <th class="one">Username:</th>
+            <td><input type="text" name="Username" value="" id="Username"></td>
+                </center>
+        </tr>
+        <br>
+       <center> <button onclick="five()">Login</button>
+        </center>
+       
+        </form> 
+
+</body>
+</html>

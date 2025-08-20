@@ -1,0 +1,289 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+    @media  (min-width:769px) and(max-width:1024px){
+        background-color: blue;
+    }
+    
+}
+    .m{
+      background-image: url("21.png");
+        width: 20px;
+        height:35px;
+    }
+.five
+{
+    background-color: black;
+    margin: 5px;
+    padding: 0px;
+    height: 400px;
+    width: 99%;
+    display: inline-block;
+}
+.six
+{
+    font-size: 20px;
+    margin-bottom: 100px;
+    color: wheat;
+    font: optional;
+   width: 200px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.cards
+{
+    width: 375px;
+    height: auto;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 40px;
+    display: inline-block; 
+    grid-column-gap: 0px;
+    grid-row-gap: 200px;
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+}
+
+        
+
+.cards:hover
+{
+    background-color: white;
+    
+    
+}
+.image img
+{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 20px;
+}
+img:hover{
+    transform: scale(2,2);
+    transform: rotate(-10deg);
+    transition: .9s;
+    position: relative;
+    border-radius: 5px;
+    filter: opacity(10);
+    cursor: pointer;
+    background-image: linear-gradient(red,green,black);
+    
+}
+.title
+{
+    text-align: center;
+    margin: 10px;
+}
+.des
+{
+    text-align: center;
+}
+button
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: azure;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    filter: blur(20);
+    background-image: linear-gradient(red,green,black);
+    
+}
+
+nav
+{
+    text-align: right;
+    border: 1px none black;
+    border-radius: 400px;
+    border-bottom: 3px solid green;
+    text-decoration: none;
+  
+    
+    
+}
+li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+   
+}
+nav:hover
+{
+    background-color: grey;
+
+}
+li:hover
+{
+    background-color: white;
+    border-radius:20px;
+    transform: rotate(1deg);
+    filter: blur(0px);
+    filter: light(10px);
+
+}
+ul li  a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+}
+header
+{
+    background-color: gray;
+    background-image: url("20.jpg");
+      position: relative
+    
+}
+#heading
+{
+    background-color: goldenrod;
+    
+    border-radius: 1px;
+    box-shadow: 20px black;
+}
+#heading
+{
+    background-color: green;
+    transition: 5s;
+    font-family: arial;
+    font-size: 20px;
+    animation: dhulo 2s linear infinite;
+    position:relative;
+    transition: 5s;
+    transition-delay: 4s;
+    width: 300px;
+    transform:scale Y(5);
+    height: 100px;
+    animation-delay: 2s;
+}
+@keyframes dhulo
+{
+    0%{
+        background-color: blueviolet;
+        opacity: 200px;
+        top: 0px;
+        right: 0px;
+    }
+    25%
+    {
+        font-size: 10px;
+        animation-delay: 5s;
+        top: 0px;
+        right: 200px;
+    }
+    75%
+    {
+        font-size: 10px;
+        animation-delay: 5s;
+        top: 200px;
+        right: 200px;
+    }
+    100%
+    {
+        font-size: 10px;
+        animation-delay: 5s;
+        top: 0px;
+        right: 0px;
+        opacity: 50%;
+        scrollbar-width: 30px;
+        scroll-behavior: 40px;
+    }
+}
+#ten{
+    height: 30vh;
+    width:30vh;
+    background-color: red;
+    border: 2px green dotted;
+    padding: 20px;
+    filter: blur(20px);
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(blue,red,yellow,green);
+
+}
+#hero{
+    height:30vh;
+    background: linear-gradient(blue,red,yellow,green);
+    position: absolute;
+    width: 30vh;
+    background-color: red;
+    border: 2px green dotted;
+    padding: 20px;
+    filter: blur(20px);
+    border-radius: 50%;
+    animation: one 3s linear infinite;
+    
+}
+@keyframes one{
+    from{
+        transform: translate(-20%,-20%) skew(20);
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: translate(20%,20%);
+    }
+}
+video{
+    padding: 20px;
+    border-radius: 5%;
+    width: 100%;
+
+    padding-left: 20px;
+    position: relative;
+    z-index: 9;
+}
+#hero2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 2px none green;
+}
+#ele1{
+    height: 40vh;
+    width: 40vh;
+    background-color: skyblue;
+    background-position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+.icon{
+    height: 70px;
+    width: 220px;
+    margin-left: 150px;
+    margin-bottom: 500px;
+    background-color: wheat;
+}
+.btn1{
+    /* height: 30px; */
+    width: 400px;
+    display: block;
+    margin-left:250px;
+    margin-bottom: 10px;
+    
+    
+/* background-color: black; */
+}
+iframe{
+    height: 100%;
+    bottom: -300px;
+}
